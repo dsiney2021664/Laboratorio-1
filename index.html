@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="assets/estilos/styleindex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul class="nav-list">
+            <li><a href="#">Principal</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Kinal</a></li>
+        </ul>
+    </div>
+    <div id="carousel" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Imagenes/1ra.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gimnasio</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="Imagenes/2da.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Natación</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/3ra.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fútbol</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
