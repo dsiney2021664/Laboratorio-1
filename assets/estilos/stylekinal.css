@@ -42,6 +42,18 @@ section img:hover{
     filter: contrast(120%);
 }
 
+#btnRegresar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
 
